@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Profile</title>
+
+		<!-- Include meta tag to ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Include jQuery Mobile stylesheets -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+		<!-- Include the jQuery library -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!-- Include the jQuery Mobile library -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	
+
+</head>
+	
+<body>
+
+	<div data-role="main" class="ui-content">
+
+		<form method="post" action="demoform.asp">
+			
+
+		<div data-role="header">
+	    	<h1>*username*</h1>
+		</div><br>
+
+	<!--Default User Icon-->
+	<img src="http://www.sessionlogs.com/media/icons/defaultIcon.png" alt="Default Icon" width="200" height="200" align="left" hspace="40">
+
+		<br><br>
+    	<a href="#pagetwo" class="ui-btn ui-btn-inline">Edit Your Profile</a>
+    	<br><br>
+
+<p>*discription of user*</p><br><br>
+	
+<hr>
+
+
+
+
+</body>	
+
+</html>
