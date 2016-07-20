@@ -1,0 +1,111 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+}
+</style>
+</head>
+<body>
+
+
+<header>
+   <h1>Renaissance</h1>
+</header>
+
+<br></br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+.city {display:none;}
+</style>
+<body class="w3-container">
+
+<div class="w3-row">
+  <a href="#" onclick="openCity(event, 'Genres');">
+    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Genres</div>
+  </a>
+ 
+ 
+
+  <a href="#" onclick="openCity(event, 'Profile');">
+    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Profile</div>
+  </a>
+  <a href="#" onclick="openCity(event, 'Log out');">
+    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Log out</div>
+  </a>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-red";
+}
+</script>
+
+
+<!-- SPACE IN BETWEEN "FA" AND PHOTOS -->
+<br>
+</br>
+
+<style>
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+ 
+ 
+<h2>Famous Artwork</h2>
+
+<img src="http://lh6.ggpht.com/HlgucZ0ylJAfZgusynnUwxNIgIp5htNhShF559x3dRXiuy_UdP3UQVLYW6c=s1200" alt="Starry Night" style="width:304px;height:228px;">
+
+<img src="http://images.mentalfloss.com/sites/default/files/styles/article_640x430/public/clocks.png" alt="The Persistence of Memory" style="width:304px;height:228px;">
+
+<img src="http://www.artble.com/imgs/3/d/1/98600/a_sunday_afternoon_on_the_island_of_la_grande_jatte.jpg" alt="A Sunday Afternoon on the Island of La Grande Jatte" style="width:304px;height:228px;">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" alt="The Birth of Venus" style="width:304px;height:228px;">
+
+</body>
+</html>
