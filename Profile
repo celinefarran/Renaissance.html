@@ -25,20 +25,24 @@
 	<div data-role="main" class="ui-content">
 
 		<form method="post" action="demoform.asp">
-			
+
 
 		<div data-role="header">
-	    	<h1>*username*</h1>
+	    	<h1>TYWLS Tech Explorers</h1>
 		</div><br>
 
 	<!--Default User Icon-->
 	<img src="http://www.sessionlogs.com/media/icons/defaultIcon.png" alt="Default Icon" width="200" height="200" align="left" hspace="40">
 
 		<br><br>
-    	<a href="#pagetwo" class="ui-btn ui-btn-inline">Edit Your Profile</a>
+    	<a href="file:///Users/admin/Desktop/RenaissanceMobileEditProfile.html" class="ui-btn ui-btn-inline">Edit Your Profile</a>
     	<br><br>
 
-<p>*discription of user*</p><br><br>
+    <!--DESCRIPTION-->
+
+	<div><p>lalalala</p></div>
+
+	<br><br>
 	
 <hr>
 
