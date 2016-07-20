@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Renaissance</title>
+
+		<!-- Include meta tag to ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Include jQuery Mobile stylesheets -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+		<!-- Include the jQuery library -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!-- Include the jQuery Mobile library -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	</head>
+
+	<body>
+
+<center>
+		<!--Page One (Log In)-->
+
+		<div data-role="page" id="First Page">
+
+		<br><h1>Renaissance</h1>
+		
+<br><br>
+		<!--Log In Information-->
+		<div>
+			<h3>Log In</h3>
+
+            	<input type="" value="" placeholder="Username"><br>
+           		<br>
+            	<input type="" value="" placeholder="Password"><br>
+
+            		<div>
+            			<h6><a href="#">Forgot password?</a></h6>
+            		</div>
+
+            <input type="submit" data-inline="true" value="Done">
+
+            <!--a href="#" class="done-button">Done</a-->
+
+            <br><br>
+
+            <div>
+            	<h6>Dont have an account? Then <a href="#">sign up!</a></h6>
+            </div>
+
+            <div>
+            	<h6><a href="#">About the app</a></h6>
+        	</div>
+
+
+
+</center>
+
+	</body>
+
+</html>
