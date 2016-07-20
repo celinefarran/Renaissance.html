@@ -37,7 +37,7 @@
             	<input type="" value="" placeholder="Password"><br>
 
             		<div>
-            			<h6><a href="#">Forgot password?</a></h6>
+            			<h6><a href="file:///Users/admin/Desktop/RenaissanceMobileForgot.html">Forgot password?</a></h6>
             		</div>
 
             <input type="submit" data-inline="true" value="Done">
