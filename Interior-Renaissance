@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+	<html>
+
+		<head>
+
+		<style type="text/css">
+
+			h1{
+				font-size: 50px !important;
+				font-family: "My Custom Font";
+
+			}
+			input{
+				display: block;
+				padding: 5px;
+				margin: 20px;
+			}
+			h2{
+				font-size: 50%;
+			}
+
+			@font-face {
+			    font-family: "My Custom Font";
+			    src: url(champagnelimousines.ttf) format("truetype");
+			}
+
+		</style>
+
+		<title>Renaissance</title>
+
+		<!--Copy Paste the information below from http://www.w3schools.com/jquerymobile/jquerymobile_get_started.asp-->
+
+		<!-- Include meta tag to ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Include jQuery Mobile stylesheets -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+		<!-- Include the jQuery library -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!-- Include the jQuery Mobile library -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+		</head>
+
+		<body>
+
+		<center>
+			<!--First Page-->
+			<div data-role="pagetwo" id="SecondPage">
+
+				<div data-role="header">
+				    <h1>Renaissance</h1>
+				    
+				    <h2>Interior</h2>
+				 </div>
+
+				 <div data-role="main" class="ui-content">
+				   <p>About<br><br>Interior design is the art of designing the placement of ornamental structures in a room.<br><br>History<br><br>Interior designing has existed for about a century. These designers existed to combine professional and fashionable tastes to the design of buildings.</p>
+				   <img src="http://www.martincainemusic.com/wp-content/uploads/2014/12/home-design-application.jpg" alt="ID1" style="width:304px;height:228px;">
+				   <img src="https://pixabay.com/static/uploads/photo/2015/11/07/21/29/living-1032733_960_720.jpg" alt="ID2" style="width:304px;height:228px;"> 
+				   <img src="http://themeflush.com/minimalix/demo14/wp-content/uploads/2015/10/interior-designing-inside-heavenly-interior-design-ideas-for-interior-design-schools.jpg" alt="ID3" style="width:304px;height:228px;">
+				   <img src="http://cdn.home-designing.com/wp-content/uploads/2009/07/living-room-interior-design.jpg" alt="ID4" style="width:304px;height:228px;">
+		</body>
+
+				 </div>
+
+				 <!--Only the footer-->
+				 <div data-role="footer">
+				 </div>
+
+			</div>
+		</center>
+		</body>
+
+	</html>
