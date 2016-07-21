@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+	<html>
+
+		<head>
+
+		<style type="text/css">
+
+			h1{
+				font-size: 50px !important;
+				font-family: "My Custom Font";
+
+			}
+			input{
+				display: block;
+				padding: 5px;
+				margin: 20px;
+			}
+			h2{
+				font-size: 50%;
+			}
+
+			@font-face {
+			    font-family: "My Custom Font";
+			    src: url(champagnelimousines.ttf) format("truetype");
+			}
+
+		</style>
+
+		<title>Renaissance</title>
+
+		<!--Copy Paste the information below from http://www.w3schools.com/jquerymobile/jquerymobile_get_started.asp-->
+
+		<!-- Include meta tag to ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Include jQuery Mobile stylesheets -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+		<!-- Include the jQuery library -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<!-- Include the jQuery Mobile library -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+		</head>
+
+		<body>
+
+		<center>
+			<!--First Page-->
+			<div data-role="pagetwo" id="SecondPage">
+
+				<div data-role="header">
+				    <h1>Renaissance</h1>
+				    
+				    <h2>Graphic</h2>
+				 </div>
+
+				 <div data-role="main" class="ui-content">
+				   <p>About<br><br>Graphic design is the art of designing through technology and coding.<br><br>History<br><br>Graphic Design is a newer invention created with the intention of making it easier to create artwork and make easy and quick alterations.</p>
+				   <img src="http://justsaynews.com/wp-content/uploads/2015/11/art1.jpg" alt="GD1" style="width:304px;height:228px;"> 
+				   <img src="http://static1.squarespace.com/static/54e4862de4b0004c775a3d5a/55c4cfc0e4b08dc26b28f253/56a7f01ea2bab83fab5d3cad/1454075804406/?format=1000w" alt="GD2" style="width:304px;height:228px;"> 
+				   <img src="http://cdn.skilledup.com/wp-content/uploads/2014/11/graphic-design-tools-Feature_1290x688_MS.jpg" alt="GD3" style="width:304px;height:228px;">
+				   <img src="http://amartam.com/images/graphic2.png" alt="GD4" style="width:304px;height:228px;">
+		</body>
+
+				 </div>
+
+				 <!--Only the footer-->
+				 <div data-role="footer">
+				 </div>
+
+			</div>
+		</center>
+		</body>
+
+	</html>
