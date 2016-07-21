@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+}
+</style>
+</head>
+<body>
+
+
+<header>
+   <h1>Renaissance</h1>
+</header>
+
+
+<!-- TABS -->
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: verdana;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+</head>
+<body>
+
+<ul>
+   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Genres</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#"> Paintings </a>
+      <a href="#"> Drawings </a>
+      <a href="#">Photography </a>
+      <a href="#"> Fashion </a>
+      <a href="#"> Maga </a>
+      <a href="#"> Cosemtology </a>
+      <a href="#"> Potery </a>
+      <a href="#"> Oragami </a>
+      <a href="#"> Interior </a>
+      <a href="#">Photography </a>
+      <a href="#"> Sculptures </a>
+      <a href="#"> Performance </a>
+    </li>
+    <li><a href="#About">About</a></li>
+  <li><a class="active" href="#Profile">Profile</a></li>
+  <li><a href="#Sign up">Sign up</a></li>
+  <li><a href="#Log out">Log out</a></li>
+
+    </div>
+</ul>
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+.city {display:none;}
+</style>
+<body class="w3-container">
+
+<div class="w3-row">
+  <a href="#" onclick="openCity(event, 'Genres');">
+    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Genres</div>
+  </a>
+ 
+ 
+
+  <a href="#" onclick="openCity(event, 'Profile');">
+    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Profile</div>
+  </a>
+  <a href="#" onclick="openCity(event, 'Log out');">
+    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Log out</div>
+  </a>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-red";
+}
+</script>
+
+-->
+
+<!-- SPACE IN BETWEEN "FA" AND PHOTOS -->
+
+
+<style>
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+ 
+ 
+<h3>Famous Artwork</h3>
+
+<img src="http://lh6.ggpht.com/HlgucZ0ylJAfZgusynnUwxNIgIp5htNhShF559x3dRXiuy_UdP3UQVLYW6c=s1200" alt="Starry Night" style="width:304px;height:228px;">
+
+<img src="http://images.mentalfloss.com/sites/default/files/styles/article_640x430/public/clocks.png" alt="The Persistence of Memory" style="width:304px;height:228px;">
+
+<img src="http://www.artble.com/imgs/3/d/1/98600/a_sunday_afternoon_on_the_island_of_la_grande_jatte.jpg" alt="A Sunday Afternoon on the Island of La Grande Jatte" style="width:304px;height:228px;">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" alt="The Birth of Venus" style="width:304px;height:228px;">
+
+<br></br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body class="w3-container">
+
+<h3>Cultured Artwork<h3>
+
+<!--
+<div class="w3-dropdown-click">
+  <button onclick="myFunction()" class="w3-btn">Click me</button>
+  <div id="Demo" class="w3-dropdown-content w3-card-4 w3-animate-bottom">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("Demo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+-->
+
+</body>
+</html>
