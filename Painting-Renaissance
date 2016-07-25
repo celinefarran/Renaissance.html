@@ -36,6 +36,8 @@
 
 		<!-- Include jQuery Mobile stylesheets -->
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<!--WRITE THE CODE BELOW-->
+		<link rel="stylesheet" href="Style.css">
 
 		<!-- Include the jQuery library -->
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -47,14 +49,17 @@
 
 		<body>
 
-		<center>
+		<center class="popcorn">
 			<!--First Page-->
-			<div data-role="pagetwo" id="SecondPage">
+			<div data-role="pagetwo" id="SecondPage" class="popcorn">
+				<div data-role="main" class="ui-content">
+					<form method="post" action="demoform.asp">
 
-				<div data-role="header">
-				    <h1>Renaissance</h1>
+				<div style="background-color: #128760" data-role="header">
+					<!-- ADD BACKGROUND COLORS OVER HERE -->
+				    <h1 style="color: #fffdff">Renaissance</h1>
 				    
-				    <h2>Painting</h2>
+				    <h2 style="color: #fffdff">Painting</h2>
 				 </div>
 
 				 <div data-role="main" class="ui-content">
