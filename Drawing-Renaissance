@@ -36,6 +36,7 @@
 
 		<!-- Include jQuery Mobile stylesheets -->
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="Style.css">
 
 		<!-- Include the jQuery library -->
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -51,10 +52,10 @@
 			<!--First Page-->
 			<div data-role="pagetwo" id="SecondPage">
 
-				<div data-role="header">
-				    <h1>Renaissance</h1>
+				<div style="background-color: #128760" data-role="header">
+				    <h1 style="color: #fffdff">Renaissance</h1>
 				    
-				    <h2>Drawing</h2>
+				    <h2 style="color: #fffdff">Drawing</h2>
 				 </div>
 
 				 <div data-role="main" class="ui-content">
