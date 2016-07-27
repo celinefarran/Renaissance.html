@@ -98,14 +98,14 @@ li.dropdown {
     <div class="dropdown-content" id="myDropdown">
       <a href="#"> Paintings </a>
       <a href="#"> Drawings </a>
-      <a href="#">Photography </a>
+      <a href="#"> Photography </a>
       <a href="#"> Fashion </a>
-      <a href="#"> Maga </a>
-      <a href="#"> Cosemtology </a>
-      <a href="#"> Potery </a>
-      <a href="#"> Oragami </a>
+      <a href="#"> Manga </a>
+      <a href="#"> Cosmetology </a>
+      <a href="#"> Pottery </a>
+      <a href="#"> Origami </a>
       <a href="#"> Interior </a>
-      <a href="#">Photography </a>
+      <a href="#"> Photorealistic </a>
       <a href="#"> Sculptures </a>
       <a href="#"> Performance </a>
     </li>
