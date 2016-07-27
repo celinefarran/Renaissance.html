@@ -53,6 +53,9 @@
 	<br><br>
 	
 <hr>
+		<a href="#Upload" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" data-rel="dialog">UPLOAD</a>
+<br>
+<br>
 <br>
 	<img src="file://localhost/Users/admin/Downloads/20160721_115711.jpg" alt="Default Icon" height="136" width="164" align="left" style="transform: rotate(90deg)" hspace="40">
 
