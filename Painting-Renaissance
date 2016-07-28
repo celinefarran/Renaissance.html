@@ -68,9 +68,12 @@
 				   <img src="https://afremov.com/image.php?type=P&id=21316" alt="umbrella" style="width:304px;height:228px;"> 
 				   <img src="https://afremov.com/image.php?type=P&id=18106" alt="house" style="width:304px;height:228px;">
 				   <img src="http://myartmagazine.com/file/imagecache/preview/image/10-2014/peacock-painting-emma-sheldrake.jpg" alt="peacock" style="width:304px;height:228px;">
-		</body>
 
 				 </div>
+
+				 <div data-role="main" class="ui-content">
+            		  <a href="file:///Users/admin/Desktop/Renaissance-App/ExplorePage(1).html">Go Back</a>
+            		</div>
 
 				 <!--Only the footer-->
 				 <div data-role="footer">
