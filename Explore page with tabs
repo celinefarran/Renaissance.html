@@ -6,7 +6,7 @@
 header, footer {
     padding: 1em;
     color: white;
-    background-color: green;
+    background-color: #128760;
     clear: left;
     text-align: center;
 }
@@ -85,7 +85,7 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #d0d0d0}
 
 .show {display:block;}
 </style>
@@ -96,22 +96,16 @@ li.dropdown {
    <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Genres</a>
     <div class="dropdown-content" id="myDropdown">
-      <a href="#"> Paintings </a>
-      <a href="#"> Drawings </a>
-      <a href="#"> Photography </a>
-      <a href="#"> Fashion </a>
-      <a href="#"> Manga </a>
-      <a href="#"> Cosmetology </a>
-      <a href="#"> Pottery </a>
-      <a href="#"> Origami </a>
-      <a href="#"> Interior </a>
-      <a href="#"> Photorealistic </a>
-      <a href="#"> Sculptures </a>
-      <a href="#"> Performance </a>
+      <a href="file:///Users/admin/Desktop/Renaissance-App/paintings.html"> Paintings </a>
+      <a href="file:///Users/admin/Desktop/Renaissance-App/drawings.html"> Drawings </a>
+      <a href="file:///Users/admin/Desktop/Renaissance-App/photography.html"> Photography </a>
+      <a href="file:///Users/admin/Desktop/Renaissance-App/manga.html"> Manga </a>
+      <a href="file:///Users/admin/Desktop/Renaissance-App/origami.html"> Origami </a>
     </li>
     <li><a href="#About">About</a></li>
   <li><a class="active" href="#Profile">Profile</a></li>
-  <li><a href="#Sign up">Sign up</a></li>
+  <li><a href="#Purchase">Shopping Cart</a></li>
+  <li><a href="file:///Users/admin/Desktop/Renaissance-App/signup.html">Sign up</a></li>
   <li><a href="#Log out">Log out</a></li>
 
     </div>
