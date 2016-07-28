@@ -37,17 +37,26 @@
             	<input type="" value="" placeholder="Password"><br>
 
             		<div>
-            			<h6><a href="file:///Users/admin/Desktop/RenaissanceMobileForgot.html">Forgot password?</a></h6>
+            			<h6><a href="file:///Users/admin/Desktop/Renaissance-App/RenaissanceForgot.html">Forgot password?</a></h6>
             		</div>
 
-            <input type="submit" data-inline="true" value="Done">
+            		<div data-role="main" class="ui-content">
+            		  <a href="file:///Users/admin/Desktop/Renaissance-App/ExplorePage(1).html" class="ui-btn">Done</a>
+            		</div>
+
+
+            <!--input type="submit" data-inline="true" value="Done"-->
+
+            <!--a href="#" class="done-button">Done</a-->
+
+            <!--input onclick="window.location" 'file:///Users/admin/Desktop/Renaissance-App/explorepage.html'   type="submit" data-inline="true" value="Done"-->
 
             <!--a href="#" class="done-button">Done</a-->
 
             <br><br>
 
             <div>
-            	<h6>Dont have an account? Then <a href="#">sign up!</a></h6>
+            	<h6>Dont have an account? Then <a href="file:///Users/admin/Desktop/Renaissance-App/signup.html">sign up!</a></h6>
             </div>
 
             <div>
