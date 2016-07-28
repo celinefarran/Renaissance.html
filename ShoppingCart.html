@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+}
+</style>
+</head>
+<body>
+
+
+<header>
+   <h1>Renaissance</h1>
+</header>
+
+<br></br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+.city {display:none;}
+</style>
+<body class="w3-container">
+
+<div class="w3-row">
+  <a href="#" onclick="openCity(event, 'Genres');">
+    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Genres</div>
+  </a>
+ 
+ 
+
+ <a href="file:///Users/admin/Desktop/Renaissance-App/RenaissanceAppMobile(%3F).html" onclick="openCity(event, 'Profile');">
+    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Profile</div>
+  </a>
+  <a href="file:///Users/admin/Desktop/Renaissance-App/RenaissanceAppMobile.html" onclick="openCity(event, 'Log out');">
+    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Log out</div>
+  </a>
+  <a href="file:///Users/admin/Desktop/Renaissance-App/explorepage.html#" onclick="openCity(event, 'Log out');">
+    <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">< Continue Browsing</div>
+  </a>
+</div>
+
+        <script>
+            function openCity(evt, cityName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.firstElementChild.className += " w3-border-red";
+            }
+        </script>
+
+<br></br>
+
+<h2>Shopping Cart</h2>
+
+        
+
+<hr>
+
+
+
+</body>
+</html>
