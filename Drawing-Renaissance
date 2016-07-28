@@ -3,7 +3,8 @@
 	<html>
 
 		<head>
-
+		<title>Renaissance</title>
+		
 		<style type="text/css">
 
 			h1{
@@ -27,7 +28,7 @@
 
 		</style>
 
-		<title>Renaissance</title>
+		
 
 		<!--Copy Paste the information below from http://www.w3schools.com/jquerymobile/jquerymobile_get_started.asp-->
 
@@ -60,11 +61,15 @@
 
 				 <div data-role="main" class="ui-content">
 				   <p>About<br><br>Drawing is the use of a utensil such as a pencil, pen, etc. to create a picture in varying shades of a single colour.<br><br>History<br><br>Earlier drawings were inscribed in walls and drawn on papers known as papyrus. Later drawing transferred to tablets made of natural materials such as wood and rock. Drawing has been a popular genre of art through centuries.</p>
+
 				   <img src="https://i.ytimg.com/vi/31AAgOny2Ro/maxresdefault.jpg" alt="illusion" style="width:304px;height:228px;"> 
+
 				   <img src="http://webneel.com/daily/sites/default/files/images/daily/01-2014/5-drawings-of-flowers.jpg" alt="rose" style="width:304px;height:228px;"> 
+
 				   <img src="http://f.tqn.com/y/drawsketch/1/S/c/j/Eye-drawing-technique.jpg" alt="eye" style="width:304px;height:228px;">
+
 				   <img src="https://i.ytimg.com/vi/LLbhodAxRng/maxresdefault.jpg" alt="ariana" style="width:304px;height:228px;">
-		</body>
+		
 
 				 </div>
 
